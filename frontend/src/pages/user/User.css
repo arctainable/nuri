@@ -1,0 +1,15 @@
+.User {
+  box-sizing: border-box;
+  height: calc(100% - 80px);
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.User-button-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}

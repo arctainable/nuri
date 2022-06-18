@@ -1,0 +1,18 @@
+.AllGameList-Container {
+  display: inline;
+  
+}
+
+.AllGameList-Container .Card-Contents {
+  display: inline-block;
+  width: fit-content;
+  padding: 50px;
+}
+
+.MuiCardActions-root {
+  justify-content: space-between !important;
+}
+
+.MuiCardMedia-root {
+  width: 345px !important;
+}

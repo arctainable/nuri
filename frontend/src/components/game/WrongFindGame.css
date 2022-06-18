@@ -1,0 +1,73 @@
+.nuriPicture {
+  margin-left: -8%;
+  position: relative;
+  }
+
+.javaPicture {
+  float: right;
+  margin-right: 0%;
+  position: relative;
+  }
+
+.findCheck1{
+  position: absolute;
+  top:4%;
+  left:45%;
+  font-size: xxx-large;
+  color: red;
+}
+
+.findCheck2{
+  position: absolute;
+  top:7%;
+  left:27%;
+  font-size: xxx-large;
+  color: red;
+}
+
+.findCheck3{
+  position: absolute;
+  top:18%;
+  left:40%;
+  font-size: xxx-large;
+  color: red;
+}
+
+.findCheck4{
+  position: absolute;
+  top:63%;
+  left:18%;
+  font-size: xxx-large;
+  color: red;
+}
+
+.findCheck5{
+  position: absolute;
+  top:67%;
+  left:46%;
+  font-size: xxx-large;
+  color: red;
+}
+
+.progressBar {
+  margin-left: 4%;
+  }
+
+  
+.answerCheck{
+  font-size: xxx-large;
+  color: red;
+}
+
+.timeRes{
+  border: 1px solid black;
+  font-size: xxx-large;
+  float: left;
+  margin-left: 20%;
+}
+
+.res{
+  font-size: xxx-large;
+  margin-left: 1%;
+}
+

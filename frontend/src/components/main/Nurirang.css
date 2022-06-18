@@ -1,0 +1,19 @@
+.Nurirang img{
+  position: fixed;
+  top: 100px;
+  right: 0px;
+  width: 200px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  z-index: 5;
+}
+
+.Nurirang img:hover {
+  transform: scale(1.1);
+}
+
+.Nurirang {
+  position: absolute;
+  border: none;
+  background-color: white;
+}

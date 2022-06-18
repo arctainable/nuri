@@ -1,0 +1,13 @@
+textarea{width:500px; height:100px; 
+  resize: vertical;
+}
+
+.ide-contents {
+  padding-top: 40px;
+}
+
+#nuriCode {
+width:50%;
+height:300px;
+float: left;
+}

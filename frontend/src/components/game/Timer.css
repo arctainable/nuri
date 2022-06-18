@@ -1,0 +1,18 @@
+.Timer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Timer-header {
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .Timer-header {
+    font-size: 20px;
+  }
+}

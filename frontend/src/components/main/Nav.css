@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Yeongdo-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Nav {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px 10vw;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: rgb(219, 219, 219);
+  font-family: 'Yeongdo-Rg';
+}
+
+.Nav-logo {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.Nav-content {
+  display: flex;
+  align-items: center;
+  column-gap: 3vw;
+}
+
+.Nav-items {
+  display: flex;
+  column-gap: 3vw;
+}
+
+@media (max-width: 760px) {
+  .Nav-items {
+    z-index: 100;
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Nav-item {
+    padding: 10px 0px;
+  }
+
+  .Nav-item::after {
+    top: 10px !important;
+    height: 10px !important;
+  }
+
+  .Nav-item:hover::after {
+    width: 55px !important;
+  }
+}
+
+.Nav-item {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.Nav-item::after {
+  z-index: 0;
+  opacity: 70%;
+  position: absolute;
+  left: 0;
+  width: 0%;
+  top: 0px;
+  height: 15px;
+  transform: translate(0%, 70%);
+  transition: width 0.3s;
+  background-color: #FFD644;
+  opacity: 30%;
+  content: '';
+}
+
+.Nav-item:hover::after {
+  width: 64px;
+}
+
+.Nav-item-login {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Nav-logout-button {
+  cursor: pointer;
+}
+
+.Nav-item-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: #FFD644;
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Yeongdo-Rg';
+}
+
+.Nav-item-button:hover {
+  cursor: pointer;
+  background-color: #fac60c;
+}

@@ -1,0 +1,87 @@
+.Record {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Record-tag-group {
+  display: flex;
+  flex-direction: row;
+  border-style: none none solid;
+  border-color: rgb(219, 219, 219);
+  border-width: 2px;
+}
+
+.Record-tag {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  text-align: left;
+}
+
+.Record-tag:hover {
+  cursor: pointer;
+}
+
+.Record-tag-on {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.Record-tag-on:hover {
+  cursor: pointer;
+}
+
+.Record-tag-on::after {
+  position: absolute;
+  bottom: 1px;
+  left: 0px;
+  width: 100px;
+  height: 10px;
+  background-color: #FFD644;
+  content: '';
+}
+
+.Record-tag::after {
+  position: absolute;
+  bottom: 1px;
+  left: 0px;
+  width: 0px;
+  height: 10px;
+  transition: width 0.3s;
+  background-color: #FFD644;
+  content: '';
+}
+
+.Record-tag:hover::after {
+  width: 100px;
+}
+
+@media (max-width: 760px) {
+  .Record-tag {
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .Record-tag::after {
+    height: 5px;
+  }
+
+  .Record-tag:hover::after {
+    width: 70px;
+  }
+
+  .Record-tag-on {
+    font-size: 12px;
+    height: 30px;
+    font-weight: bold;
+  }
+  
+  .Record-tag-on::after {
+    height: 5px;
+    width: 70px;
+  }
+}

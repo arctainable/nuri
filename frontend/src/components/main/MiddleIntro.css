@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'GowunBatang-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Middle-Contents {
+  margin-top: 5vh;
+  margin-bottom: 5%;
+  font-family: "GowunBatang-Regular";
+  margin-top: 5rem;
+}
+
+.Middle-Contents img {
+  display: inline-block;
+  padding: 5vh;
+  width: 20%;
+}
+
+.Middle-Contents > h1{
+  color: red;
+}
+
+.animated-number{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.animated-number-alt{
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.animated-number-alt2{
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.Middle-Contents .text-animation-container h2, h3{
+  display: inline;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.Middle-Contents .text-animation-container p {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.Middle-Contents .image-container{
+  margin-top: 5%;
+}
+
+.Middle-Contents .image-container img {
+  width: 20%;
+  height: 370px;
+  box-shadow: 2px 2px 4px grey;
+  border-radius: 20px;
+}
+
+.Middle-Contents .code-alt-container {
+  display: flex;
+  justify-content: space-evenly;
+  left: 45%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}

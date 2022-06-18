@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.contents-title {
+  margin-top: 5rem;
+}
+
+.contents-title > hr {
+  width: 80%;
+}
+
+.contents-title > h2 {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.MuiBox-root {
+  text-align: right;
+  margin-right: 10%;
+}
+
+.MuiOutlinedInput-root {
+  width: 120px;
+  font-family: 'GangwonEdu_OTFBoldA' !important;
+}
+
+.MuiSelect-select {
+  font-family: 'GangwonEdu_OTFBoldA' !important;
+}

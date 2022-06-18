@@ -1,0 +1,64 @@
+.SaveModal-bg {
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.SaveModal {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(219, 219, 219, 0.5);
+  border-width: 3px;
+  background-color: white;
+}
+
+.SaveModal-input {
+  width: 330px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(219, 219, 219);
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.SaveModal-input-message {
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: red;
+}
+
+.SaveModal-button-group {
+  align-self: flex-end;
+}
+
+.SaveModal-button {
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #FFD644;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+}
+
+.SaveModal-button:hover {
+  cursor: pointer;
+  background-color: #fcebae;
+}

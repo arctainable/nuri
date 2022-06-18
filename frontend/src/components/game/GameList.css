@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'SuncheonB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.GameList-Container {
+  display: inline;
+  
+}
+
+.GameList-Container .Card-Contents {
+  display: inline-block;
+  width: fit-content;
+  padding: 50px;
+}
+
+.MuiCardActions-root {
+  justify-content: space-between !important;
+}
+
+.MuiCardMedia-root {
+  width: 345px !important;
+}

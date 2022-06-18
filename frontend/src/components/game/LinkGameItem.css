@@ -1,0 +1,62 @@
+.LinkGameItem {
+  width: 18vw;
+  height: 18vh;
+  min-width: 60px;
+  min-height: 40px;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.LinkGameItem-on {
+  width: 18vw;
+  height: 18vh;
+  min-width: 60px;
+  min-height: 40px;
+  border-radius: 15px;
+  position: relative;
+}
+
+
+.LinkGameItem-card {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  visibility: visible;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #FFD644;
+}
+
+.front {
+  position: absolute;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.LinkGameItem-on .front {
+  transform: rotateY(-180deg);
+}
+
+.LinkGameItem-on .back {
+  transform: rotateY(0deg);
+}
+
+.LinkGameItem-card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.LinkGameItem-card-value {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}

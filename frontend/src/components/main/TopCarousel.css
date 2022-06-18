@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'SuncheonB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.CarouselContainer .slides{
+  padding-top: 80px;
+  background-color: #e8f1ff;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.CarouselContainer .slides2{
+  padding-top: 80px;
+  background-color: #fdf5ab;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.CarouselContainer .slides3{
+  padding-top: 80px;
+  background-color: #b7fccc;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.CarouselContainer .slides img {
+  width: 27%;
+  height: 15rem;
+  float: right;
+  margin-right: 10%;
+  vertical-align: middle;
+}
+
+.CarouselContainer .slides2 img {
+  width: 23%;
+  height: 15rem;
+  float: right;
+  margin-right: 10%;
+  vertical-align: middle;
+}
+
+.CarouselContainer .slides3 img {
+  width: 23%;
+  height: 15rem;
+  float: right;
+  margin-right: 10%;
+  vertical-align: middle;
+}
+
+.CarouselContainer .slides .contents-text{
+  margin-left: 20vh;
+  text-align: left;
+  display: inline-block;
+  float: left;
+  font-family: "SuncheonB";
+}
+
+.CarouselContainer .slides2 .contents-text{
+  margin-left: 20vh;
+  text-align: left;
+  display: inline-block;
+  float: left;
+  font-family: "SuncheonB";
+}
+.CarouselContainer .slides3 .contents-text{
+  margin-left: 20vh;
+  text-align: left;
+  display: inline-block;
+  float: left;
+  font-family: "SuncheonB";
+}
+
+.CarouselContainer .slides .contents-text > button {
+  background: rgb(0,172,238);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  z-index: 3;
+  border-radius: 20px;
+  font-family: "SuncheonB";
+}
+
+.CarouselContainer .slides2 .contents-text > button {
+  background: rgb(250, 231, 60);
+  color: white;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  z-index: 3;
+  border-radius: 20px;
+  font-family: "SuncheonB";
+}
+
+.CarouselContainer .slides3 .contents-text > button {
+  background: rgb(110, 255, 81);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  z-index: 3;
+  border-radius: 20px;
+  font-family: "SuncheonB";
+}
+
+* {
+  
+}

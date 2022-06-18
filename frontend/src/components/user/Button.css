@@ -1,0 +1,30 @@
+.User-button-cancel {
+  font-size: medium;
+  font-weight: bold;
+  width: 48%;
+  height: 50px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(219, 219, 219);
+  background-color: white;
+}
+
+.User-button-cancel:hover {
+  cursor: pointer;
+  background-color: rgb(219, 219, 219);
+}
+
+.User-button-success {
+  font-size: medium;
+  font-weight: bold;
+  width: 48%;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #FFD644;
+}
+
+.User-button-success:hover {
+  cursor: pointer;
+  background-color: #fac60c;
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'SuncheonB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Contents-title {
+  text-align: left;
+  margin-left: 5rem;
+}
+
+.Contents-title button{
+  display: inline-block;
+  margin-top: 1.5rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 22px;
+  font-family: "SuncheonB";
+  float: right;
+  margin-right: 5rem;
+}
+
+.Contents-title h2{
+  display: inline-block;
+}

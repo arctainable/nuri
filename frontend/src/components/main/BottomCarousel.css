@@ -1,0 +1,58 @@
+.Bottom-CarouselContainer .slides{
+  padding-top: 30px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.Bottom-CarouselContainer .slides .contents-text{
+  margin-left: 20vh;
+  text-align: left;
+}
+
+.Bottom-CarouselContainer .slides .contents-text2 {
+  margin-left: 20vh;
+  text-align: left;
+  color: white;
+}
+
+.Bottom-CarouselContainer .slides .contents-text3 {
+  margin-left: 20vh;
+  text-align: left;
+  color: white;
+}
+
+.Bottom-CarouselContainer .slides .contents-text > button {
+  background: rgb(0,172,238);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  z-index: 3;
+  border-radius: 20px;
+  float: right;
+  margin-right: 5rem;
+}
+
+.Bottom-CarouselContainer .slides .contents-text2 > button {
+  background: black;
+  color: white;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  z-index: 3;
+  border-radius: 20px;
+}
+
+.Bottom-CarouselContainer .slides .contents-text3 > button {
+  background: rgb(255,115,123);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  z-index: 3;
+  border-radius: 20px;
+}

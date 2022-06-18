@@ -1,0 +1,54 @@
+.ChangeNickname-bg {
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(219, 219, 219, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ChangeNickname {
+  box-sizing: border-box;
+  width: 55%;
+  max-width: 600px;
+  height: 40%;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.ChangeNickname-cancel-icon {
+  align-self: flex-end;
+}
+
+.ChangeNickname-cancel-icon:hover {
+  cursor: pointer;
+}
+
+.ChangeNickname-button {
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: #FFD644;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ChangeNickname-button:hover {
+  cursor: pointer;
+  background-color: #fac60c;
+}
+
+@media (max-width: 760px) {
+  .ChangeNickname {
+    width: 90%;
+  }
+}

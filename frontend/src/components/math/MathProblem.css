@@ -1,0 +1,74 @@
+.MathProblem {
+  box-sizing: border-box;
+  width: 48%;
+  height: 45vh;
+  min-height: 300px;
+}
+
+.MathProblem-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px 15px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.MathProblem-button-group {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.MathProblem-theme-button {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #1e1e1e;
+  background-color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.MathProblem-theme-button:hover {
+  cursor: pointer;
+}
+
+.MathProblem-header-button {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #FFD644;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.MathProblem-header-button:hover {
+  cursor: pointer;
+  background-color: #fcebae;
+}
+
+.MathProblem-content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 5px;
+  text-align: left;
+}
+
+.toggle-off {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .MathProblem {
+    width: 100%;
+  }
+}
